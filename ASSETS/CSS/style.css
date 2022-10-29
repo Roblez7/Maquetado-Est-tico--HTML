@@ -22,7 +22,7 @@ section.panerl{
 /*  navbar*/
 .bg-gris{
    background-color:rgb(10, 10, 10);
-   height: 60px;  
+   height: 65px;  
    }
 .list-group{
     --bs-list-group-bg:trasparent;
