@@ -1,0 +1,126 @@
+body{
+  background-color: rgb(217, 188, 236);
+}
+
+
+#banner{
+   background-image: url(../img/mi\ diseño1.png);
+   background-position: center;
+   background-size: 100%;
+   margin: auto;
+   background-repeat: no-repeat;
+   min-height: 45vh;
+   z-index: 0;
+}
+section.aboud{
+   margin-top: 5%;
+}
+/*
+section.panerl{
+   margin-top: 5%;;
+}*/
+/*  navbar*/
+.bg-gris{
+   background-color:rgb(10, 10, 10);
+   height: 60px;  
+   }
+.list-group{
+    --bs-list-group-bg:trasparent;
+}
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-solid.fa-user.fa-2xl{
+    color: rgb(255, 255, 255);;
+ }   
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color: blue;
+ }
+ .list-group.list-group-horizontal
+{
+--bs-list-group-border-color:trasparet;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(255, 72, 0);
+ }
+ i.fa-brands.fa-square-twitter.fa-2xl:hover{
+    color: rgb(120, 120, 161);
+ }
+ i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgb(168, 101, 231);
+ } 
+ i.fa-brands.fa-square-twitter.fa-2xl{
+    color: rgb(255, 251, 251);;
+ } 
+ /* foto de perfil*/
+ .rounded-circle {
+   width: 150px;
+   height: 150px;
+   -moz-border-radius: 60%;
+   -webkit-border-radius: 60%;
+   border-radius: 60%;
+} 
+
+.rounded-circle.w-125{
+   position: absolute;
+   z-index: 1;
+   background-color: #fff;
+   height: auto;
+   width: 10rem;
+margin-top: -5rem;
+margin-left: 8rem !important;
+}
+/*img:hover{
+animation: vibrate 0.5s;
+animation-iteration-count: infinite ;
+}
+@keyframes vibrate {
+  0%{ transform: rotate(0deg);} 
+  10%{ transform: rotate(-1deg);} 
+  20%{ transform: rotate(1deg);} 
+  30%{ transform: rotate(0deg);} 
+  40%{ transform: rotate(1deg);} 
+  50%{ transform: rotate(-1deg);} 
+  60%{ transform: rotate(0deg);} 
+  70%{ transform: rotate(-1deg);} 
+  80%{ transform: rotate(1deg);} 
+  90%{ transform: rotate(0deg);} 
+  100%{ transform: rotate(-1deg);}  
+} para que la img tiemble*/
+
+/* texto debajo de la foto */
+.text-start{
+   margin-left: 4.5rem;
+}
+.login{
+   height: 90vh;
+}
+.fotmulario-login{
+   margin-top: 10rem;
+}
+/*card inicio */
+.card{
+   --bs-card-bg:trasparet;
+   --bs-border-color-translucent:var(--bs-border-color-translucent)
+}
+.card1:hover{
+box-shadow: 5px 50px 20px;
+transform: translateY(-3%);
+background-color: rgb(217, 175, 245);
+}
+.card5:hover{
+   box-shadow: 5px 50px 20px;
+transform: translateY(-3%);
+   background-color: rgb(189, 157, 245);
+}
+
+/*panel principio*/
+#img-perfil{
+   left: -0.6rem !important;
+   margin-top: -0rem;
+}
+.list-group-item-action{
+   margin-top: 1rem;
+   left: -3rem !important;
+   background-color: rgb(158, 151, 248);
+}
+

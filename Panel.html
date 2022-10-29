@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+  <script src="https://kit.fontawesome.com/87abc5694a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="ASSETS/CSS/style.css">
+    <title>Panel</title> 
+</head>
+<body>
+   <!--navbar sin redes panelAd-->
+   <nav class="navbar navbar-expand-lg bg-gris">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="ASSETS/img/APLogo-20-20.png" alt="" width="15%" height="">
+          </a> 
+    <ul class="list-group list-group-horizontal">
+    <!-- Button login -->
+    <li class="list-group-item"><a href="login.html"><i class="fa-solid fa-user fa-2xl"></i></a></li>
+    </ul>
+</nav>
+</div>
+<div class="container-fluid text-fluid text-start " >
+  <div class="row">
+  <div class="col-2 pt-4 " >
+<div class="list-group ">
+  <a href="#"data-bs-toggle="modal" data-bs-target="#redesModal"  class="list-group-item list-group-item-action  "><i class="fa-regular fa-share-from-square fa-xl"></i> Redes</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#bannerModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-images fa-xl"></i>></i> Banner</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#perfilModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-image fa-xl"></i> Foto de perfil</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#nameModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-file-signature fa-xl"></i> Nombre</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#sobremiModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-user-pen fa-xl"></i> Sobre mi</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#trabajoModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-folder-open fa-xl"></i> Experiencia Laboral</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#educasionModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-user-graduate fa-xl"></i> Educasion</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="list-group-item list-group-item-action "> Hard & Golft Skills</a>
+  <a href="#"data-bs-toggle="modal" data-bs-target="#proyectosModal" class="list-group-item list-group-item-action "><i class="fa-solid fa-briefcase fa-xl"></i> Proyectos</a>
+   </div>
+  </div> 
+  <div class="col-9" >
+   <!-- Modal redes 1-->
+<div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="basic-url" class="form-label">instagram URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://instagram.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+
+        <label for="basic-url" class="form-label">twitter URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://twitter.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+
+        <label for="basic-url" class="form-label">facebook URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://facebook.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- Modal banner 2-->
+<div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Banner</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Guardar</button>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">text Banner</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal perfil 3-->
+<div class="modal fade" id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Foto de perfil</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Guardar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal name 4-->
+<div class="modal fade" id="nameModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Nombre</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <span class="input-group-text">Nombre y Apellido </span>
+          <input type="text" aria-label="First name" class="form-control">
+          <input type="text" aria-label="Last name" class="form-control">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">Texto</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal sobremi 5-->
+<div class="modal fade" id="sobremiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre Mi</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <span class="input-group-text">Texto</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal trabajo 6-->
+<div class="modal fade" id="trabajoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Trabajo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <span class="input-group-text">texto</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal educasion 7-->
+<div class="modal fade" id="educasionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Educasion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <span class="input-group-text">texto</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal proyectos 8 -->
+<div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Proyectos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- proyecto 1-->
+        <div class="input-group">
+          <span class="input-group-text">Nombre del Proyecto </span>
+          <input type="text" aria-label="First name" class="form-control">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Guardar</button>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">informacion del Proyecto 1</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <!--proyecto 2-->
+        <div class="input-group">
+          <span class="input-group-text">Nombre del Proyecto </span>
+          <input type="text" aria-label="First name" class="form-control">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Guardar</button>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">informacion del Proyecto 2</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <!--proyecto 3-->
+        <div class="input-group">
+          <span class="input-group-text">Nombre del Proyecto </span>
+          <input type="text" aria-label="First name" class="form-control">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Guardar</button>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">informacion del Proyecto 3</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Hard & Golft Skills</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Terminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+</div>
+  <div class="col-1" >
+  </div>
+<footer class="footer text-center footer-fluid bg-gris mt-5">
+  <img src="ASSETS/img/APLogo-20-20.png" alt="" width="7%" height=""> 
+</footer>  
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
