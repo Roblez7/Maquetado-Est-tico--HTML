@@ -1,2 +1,4 @@
 # portfolio1
-mi porfolio 
+mi porfolio  
+ 
+ Buscar soluciones para !Hard & Golft Skills!
